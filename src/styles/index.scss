@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
     background: rgb(131,58,180);
@@ -9,21 +10,51 @@ body {
     margin: auto;
     width: 50%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: rgb(10, 3, 31);
     margin-top: 6%;
+    border-radius: 12px;
+    box-shadow: 9px 6px 6px black;
 }
 
 .titulo {
     text-align: center;
+    margin: auto;
+    background-color: rgb(10, 3, 31);
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list-group-item {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    background-color: rgb(10, 3, 31);
 }
 
 .btn {
     background-color: transparent;
+    border-color: transparent;
 
 }
 
-.borrar.tarea
+.invisible {
+    display: none;
+}
 
-// .list-group {
+.borrar_tarea {
+    color: whitesmoke;
+    background-color: transparent;
+    float: right;
+    border-color: transparent;
+    font-size: 21px;
+}
 
-// }
+.footer {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: rgb(10, 3, 31);
+    margin-left: 10px;
+}
